@@ -10,6 +10,16 @@ int n,k,i,j;
 int g[lim][lim];
 int d[lim][lim];
 
+/*
+	All pair shortest path problem : floyd warshall
+	test case :
+	4
+	0 5 9999 10
+	9999 0 3 9999
+	9999 9999 0 1
+	9999 9999 9999 0
+*/
+
 void pre() {
 	for(i=0;i<lim;i++) {
 		for(j=0;j<lim;j++) {
